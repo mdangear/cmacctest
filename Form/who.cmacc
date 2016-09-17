@@ -1,0 +1,27 @@
+$ party1 = [../ID/_person.cmacc] => {
+}
+
+$ party1_name = [../ID/_person_f.cmacc] => {
+	"person" : party1
+}
+
+$ party2 = [../ID/_person.cmacc] => {
+}
+
+$ party2_name = [../ID/_person_f.cmacc] => {
+	"person" : party2
+}
+
+This agreement is between {{party1_name}} and {{party2_name}}.
+
+
+
+
+
+
+
+
+
+
+
+

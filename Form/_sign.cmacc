@@ -1,0 +1,28 @@
+$ role = "role"
+
+$ person = [../ID/_person.cmacc] => {
+}
+
+$ name_Full = [../ID/_person_f.cmacc] => {
+	"person" : person
+}
+
+$ sign_Place = "sign_Place"
+
+Role: {{role}}
+
+Name: {{name_Full}}  
+Place: {{sign_Place}}
+
+-------------------------
+
+
+
+
+
+
+
+
+
+
+

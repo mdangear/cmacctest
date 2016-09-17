@@ -1,0 +1,7 @@
+$ streetnum = "streetnum"
+
+$ zip = "zip"
+
+$ street = [../../_street.cmacc] => {
+}
+

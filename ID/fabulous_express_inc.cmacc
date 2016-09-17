@@ -1,0 +1,13 @@
+$ adr = [../Geo/USA/TX/Travis/Austin/AlamoWay/333/Geo.cmacc] => {
+}
+
+$ name_Full = "Fabulous Express, Inc."
+
+$ entity_a = "a Delaware corporation"
+
+$ adr_Type = "business"
+
+$ sign_RepTitle = "sign_RepTitle"
+
+$ sign_Rep = [../ID/_person.cmacc]
+

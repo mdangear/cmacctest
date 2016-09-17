@@ -1,0 +1,9 @@
+$ name_First = "Willem"
+
+$ name_Last = "Veelenturf"
+
+$ city = "Utrecht"
+
+$ gender = [../ID/gender/he.cmacc] => {
+}
+

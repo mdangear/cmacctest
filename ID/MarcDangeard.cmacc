@@ -1,0 +1,9 @@
+$ name_First = "Marc"
+
+$ name_Last = "Dangeard"
+
+$ city = "Paris"
+
+$ gender = [./gender/he.cmacc] => {
+}
+

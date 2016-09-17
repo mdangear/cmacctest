@@ -1,0 +1,9 @@
+$ name_First = "name_First"
+
+$ name_Last = "name_Last"
+
+$ city = "city"
+
+$ gender = [../ID/gender/_gender.cmacc] => {
+}
+

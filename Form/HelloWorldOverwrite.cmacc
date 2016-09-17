@@ -1,0 +1,8 @@
+$ person = [../ID/MarcDangeard.cmacc] => {
+}
+
+$ content = [./HelloWorld.cmacc] => {
+	"person" : person
+}
+
+{{content}}

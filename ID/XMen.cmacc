@@ -1,0 +1,11 @@
+$ name_First = "X"
+
+$ name_Last = "Men"
+
+$ city = [../geo/_City.cmacc] => {
+	"name" : "Paris"
+}
+
+$ gender = [./gender/he.cmacc] => {
+}
+

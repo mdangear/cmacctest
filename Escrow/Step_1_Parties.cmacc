@@ -1,0 +1,90 @@
+$ Dispute_Notice_Within_days = "5 days"
+
+$ Seller_Dear = "Dear Gerry"
+
+$ DeliveryClaim_Delay = "24 hours"
+
+$ DeliveryPayment_TimeSpan = "48 hours"
+
+$ Escrow_Fee_USD = "$1.50"
+
+$ seller = [../ID/gerrys_grapes_llc.cmacc] => {
+}
+
+$ escrow = [../ID/safe_hands_inc.cmacc] => {
+}
+
+$ arbitrator = [../ID/solomon_shirley.cmacc] => {
+}
+
+$ shipper = [../ID/fabulous_express_inc.cmacc] => {
+}
+
+$ arb = [./Form/JAMS_Arbitration_Chicago.cmacc] => {
+}
+
+$ Product_Description = "Product_Description"
+
+$ Price_USD = "Price_USD"
+
+$ Pickup_Time_Max = "Pickup_Time_Max"
+
+$ Escrow_Sign_YMD = "Escrow_Sign_YMD"
+
+$ Escrow_Effective_YMD = "Escrow_Effective_YMD"
+
+$ Dispute_Notice_Within_Days = "Dispute_Notice_Within_Days"
+
+$ purchaser = [../ID/_individual.cmacc] => {
+}
+
+$ content = [./Form/Escrow.cmacc] => {
+	"seller" : seller
+	"purchaser" : purchaser
+	"escrow" : escrow
+	"arbitrator" : arbitrator
+	"shipper" : shipper
+	"Product_Description" : "Product_Description"
+	"Price_USD" : "Price_USD"
+	"Pickup_Time_Max" : "Pickup_Time_Max"
+	"DeliveryClaim_Delay" : DeliveryClaim_Delay
+	"DeliveryPayment_TimeSpan" : DeliveryPayment_TimeSpan
+	"Escrow_Fee_USD" : Escrow_Fee_USD
+	"Escrow_Sign_YMD" : "Escrow_Sign_YMD"
+	"Escrow_Effective_YMD" : "Escrow_Effective_YMD"
+	"Arb_Fee_USD" : arb.fee_USD
+	"Dispute_Notice_Within_Days" : "Dispute_Notice_Within_Days"
+	"Arb_Seat_City" : arb.seat_city
+	"Arb_Org" : arb.org
+	"Arb_Court_CountyState" : arb.state
+}
+
+{{content}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

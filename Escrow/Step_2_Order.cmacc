@@ -1,0 +1,24 @@
+$ Product_Description = "eighteen cases of grape preserves"
+
+$ Price_USD = "$650.00"
+
+$ Pickup_Time_Max = "2014-08-15"
+
+$ Escrow_YMD = "2014-08-13"
+
+$ Purchaser_Dear = "Dear Ms. Robinson"
+
+$ purchaser = [../ID/roberta_robinson.cmacc] => {
+}
+
+$ Dispute_Notice_Within_Days = "Dispute_Notice_Within_Days"
+
+$ content = [./Step_1_Parties.cmacc] => {
+	"Product_Description" : Product_Description
+	"Price_USD" : Price_USD
+	"Pickup_Time_Max" : Pickup_Time_Max
+	"Escrow_Effective_YMD" : Escrow_YMD
+	"purchaser" : purchaser
+}
+
+{{conten}}

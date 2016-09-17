@@ -1,0 +1,9 @@
+$ party2 = [../ID/WillemVeelenturf.cmacc] => {
+}
+
+$ content = [../Form/draft1.cmacc] => {
+	"party2" : party2
+}
+
+{{content}}
+
