@@ -33,10 +33,10 @@ $ arbitrator = [../ID/solomon_shirley.cmacc] => {
 $ shipper = [../ID/fabulous_express_inc.cmacc] => {
 }
 
-$ arb = [./Form/JAMS_Arbitration_Chicago.cmacc] => {
+$ arb = [./JAMS_Arbitration_Chicago.cmacc] => {
 }
 
-$ offer = [./Form/Escrow.cmacc] => {
+$ offer = [./Escrow.cmacc] => {
 	"seller" : seller
 	"purchaser" : purchaser
 	"escrow" : escrow

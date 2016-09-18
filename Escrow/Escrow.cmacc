@@ -1,55 +1,55 @@
-$ seller = [../../ID/_entity.cmacc] => {
+$ seller = [../ID/_entity.cmacc] => {
 }
 
-$ signParty1 = [../../Form/_sign.cmacc] => {
+$ signParty1 = [../Form/_sign.cmacc] => {
 	"role" : "Seller"
 	"person" : seller.sign_Rep
 }
 
-$ purchaser = [../../ID/_individual.cmacc] => {
+$ purchaser = [../ID/_individual.cmacc] => {
 }
 
-$ signParty2 = [../../Form/_sign.cmacc] => {
+$ signParty2 = [../Form/_sign.cmacc] => {
 	"role" : "Purchaser"
 	"person" : purchaser
 }
 
-$ escrow = [../../ID/_entity.cmacc] => {
+$ escrow = [../ID/_entity.cmacc] => {
 }
 
-$ signParty3 = [../../Form/_sign.cmacc] => {
+$ signParty3 = [../Form/_sign.cmacc] => {
 	"role" : "Escrow"
 	"person" : escrow.sign_Rep
 }
 
-$ arbitrator = [../../ID/_individual.cmacc] => {
+$ arbitrator = [../ID/_individual.cmacc] => {
 }
 
-$ signParty4 = [../../Form/_sign.cmacc] => {
+$ signParty4 = [../Form/_sign.cmacc] => {
 	"role" : "Arbitrator"
 	"person" : arbitrator
 }
 
-$ shipper = [../../ID/_entity.cmacc] => {
+$ shipper = [../ID/_entity.cmacc] => {
 }
 
-$ Seller_NEA = [../../ID/_entity_NEA.cmacc] => {
+$ Seller_NEA = [../ID/_entity_NEA.cmacc] => {
 	"entity" : seller
 }
 
-$ Purchaser_NEA = [../../ID/_entity_NEA.cmacc] => {
+$ Purchaser_NEA = [../ID/_entity_NEA.cmacc] => {
 	"entity" : seller
 }
 
-$ Escrow_NEA = [../../ID/_entity_NEA.cmacc] => {
+$ Escrow_NEA = [../ID/_entity_NEA.cmacc] => {
 	"entity" : escrow
 }
 
-$ Shipper_NEA = [../../ID/_entity_NEA.cmacc] => {
+$ Shipper_NEA = [../ID/_entity_NEA.cmacc] => {
 	"entity" : shipper
 }
 
-$ Arbitrator_NEA = [../../ID/_individual_NEA.cmacc] => {
+$ Arbitrator_NEA = [../ID/_individual_NEA.cmacc] => {
 	"entity" : arbitrator
 }
 
