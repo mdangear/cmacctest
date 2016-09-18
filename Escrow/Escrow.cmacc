@@ -37,8 +37,8 @@ $ Seller_NEA = [../ID/_entity_NEA.cmacc] => {
 	"entity" : seller
 }
 
-$ Purchaser_NEA = [../ID/_entity_NEA.cmacc] => {
-	"entity" : seller
+$ Purchaser_NEA = [../ID/_individual_NEA.cmacc] => {
+	"entity" : purchaser
 }
 
 $ Escrow_NEA = [../ID/_entity_NEA.cmacc] => {
@@ -82,8 +82,11 @@ $ Arb_Court_CountyState = "Arb_Court_CountyState"
 ESCROW AGREEMENT
 
 This escrow agreement ("Escrow Agreement") is made and entered into on {{Escrow_Effective_YMD}} by and among:
+
  {{Purchaser_NEA}}, ("Purchaser"),
+
  {{Escrow_NEA}}, ("Escrow Agent"),
+
  {{Seller_NEA}} ("Seller"),
 
 as of {{Escrow_Sign_YMD}}.
@@ -155,6 +158,14 @@ IN WITNESS WHEREOF, the undersigned have caused this instrument to be duly execu
 <td>{{signParty4}}</td>
 </tr>
 </table>
+
+
+
+
+
+
+
+
 
 
 
