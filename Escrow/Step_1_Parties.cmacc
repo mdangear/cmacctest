@@ -50,6 +50,7 @@ $ offer = [./Escrow.cmacc] => {
 	"Arb_Seat_City" : arb.seat_city
 	"Arb_Org" : arb.org
 	"Arb_Court_CountyState" : arb.state
+	 "Product_Description" : Product_Description
 }
 
 {{offer}}
