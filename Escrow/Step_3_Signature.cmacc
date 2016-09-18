@@ -1,3 +1,11 @@
+$ sign_Party1_Place = "sign_Party1_Place"
+
+$ sign_Party2_Place = "sign_Party2_Place"
+
+$ sign_Party3_Place = "sign_Party3_Place"
+
+$ sign_Party4_Place = "sign_Party4_Place"
+
 $ MessageToUser = "Signed!"
 
 $ Seller_xSignature = "xGERRY"
@@ -16,11 +24,23 @@ $ Arbitrator_xSignature = "xSOLOMON SHIRLEY"
 
 $ Arbitrator_Sign_YMD = "2014-08-13:12:03"
 
-$ Dispute_Notice_Within_Days = "Dispute_Notice_Within_Days"
-
-$ content = [./Step_2_Order.cmacc] => {
+$ order = [./Step_2_Order.cmacc] => {
 }
 
-{{content}}
+$ signature = [./Step_2_Order.cmacc] => {
+	"sign_Party1_Place" : order.purchaser.adr.street.city.name
+	"sign_Party2_Place" : sign_Party2_Place
+	"sign_Party2_Date" : Purchaser_Sign_YMD
+	"sign_Party3_Place" : sign_Party3_Place
+	"sign_Party3_Date" : Escrow_Sign_YMD
+	"sign_Party4_Place" : sign_Party4_Place
+	"sign_Party4_Date" : Arbitrator_Sign_YMD
+}
+
+{{signature}}
+
+
+
+
 
 
