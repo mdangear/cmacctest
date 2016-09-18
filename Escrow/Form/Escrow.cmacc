@@ -2,7 +2,7 @@ $ seller = [../../ID/_entity.cmacc] => {
 }
 
 $ signParty1 = [../../Form/_sign.cmacc] => {
-	"role" : "Party1"
+	"role" : "Seller"
 	"person" : seller.sign_Rep
 }
 
@@ -10,7 +10,7 @@ $ purchaser = [../../ID/_individual.cmacc] => {
 }
 
 $ signParty2 = [../../Form/_sign.cmacc] => {
-	"role" : "Party2"
+	"role" : "Purchaser"
 	"person" : purchaser
 }
 
@@ -18,7 +18,7 @@ $ escrow = [../../ID/_entity.cmacc] => {
 }
 
 $ signParty3 = [../../Form/_sign.cmacc] => {
-	"role" : "Party3"
+	"role" : "Escrow"
 	"person" : escrow.sign_Rep
 }
 
@@ -26,7 +26,7 @@ $ arbitrator = [../../ID/_individual.cmacc] => {
 }
 
 $ signParty4 = [../../Form/_sign.cmacc] => {
-	"role" : "Party4"
+	"role" : "Arbitrator"
 	"person" : arbitrator
 }
 
@@ -155,6 +155,8 @@ IN WITNESS WHEREOF, the undersigned have caused this instrument to be duly execu
 <td>{{signParty4}}</td>
 </tr>
 </table>
+
+
 
 
 

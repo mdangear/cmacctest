@@ -1,0 +1,26 @@
+$ MessageToUser = "Signed!"
+
+$ Seller_xSignature = "xGERRY"
+
+$ Seller_Sign_YMD = "2014-08-13:12:01"
+
+$ Purchaser_xSignature = "xROBERTA ROBINSON"
+
+$ Purchaser_Sign_YMD = "2014-08-13:12:04"
+
+$ Escrow_xSignature = "xSAFE HANDS"
+
+$ Escrow_Sign_YMD = "2014-08-13:12:05"
+
+$ Arbitrator_xSignature = "xSOLOMON SHIRLEY"
+
+$ Arbitrator_Sign_YMD = "2014-08-13:12:03"
+
+$ Dispute_Notice_Within_Days = "Dispute_Notice_Within_Days"
+
+$ content = [./Step_2_Order.cmacc] => {
+}
+
+{{content}}
+
+

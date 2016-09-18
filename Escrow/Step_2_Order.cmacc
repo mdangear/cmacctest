@@ -13,7 +13,7 @@ $ purchaser = [../ID/roberta_robinson.cmacc] => {
 
 $ Dispute_Notice_Within_Days = "Dispute_Notice_Within_Days"
 
-$ content = [./Step_1_Parties.cmacc] => {
+$ order = [./Step_1_Parties.cmacc] => {
 	"Product_Description" : Product_Description
 	"Price_USD" : Price_USD
 	"Pickup_Time_Max" : Pickup_Time_Max
@@ -21,4 +21,6 @@ $ content = [./Step_1_Parties.cmacc] => {
 	"purchaser" : purchaser
 }
 
-{{conten}}
+{{order}}
+
+
