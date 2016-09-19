@@ -1,0 +1,25 @@
+$ person = [../ID/_individual.cmacc] => {
+}
+
+$ entity_a = "an individual"
+
+$ name_Full = [../ID/_person_full.cmacc] => {
+	"person" : person
+}
+
+$ sign_Rep = [../ID/_individual.cmacc] => {
+}
+
+$ sign_Title = "Self"
+
+$ adr_Type = "business"
+
+$ contact_Name_Formal = [../ID/_person_formal.cmacc] => {
+	"person" : person
+}
+
+$ adr = [../Geo/country/state/county/city/street/streetnum/_geo.cmacc] => {
+}
+
+$ pron = [../Form/_sing.cmacc] => {
+}

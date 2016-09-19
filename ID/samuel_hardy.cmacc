@@ -11,3 +11,5 @@ $ adr = [../Geo/USA/CA/San_Francisco/San_Francisco/MissionSt/1101/Geo.cmacc] => 
 $ adr_Type = ""business""
 
 $ sign_RepTitle = "Self"
+
+$ pron = [../Form/_sing.cmacc]

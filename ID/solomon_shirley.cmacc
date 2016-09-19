@@ -5,6 +5,8 @@ $ name_First = "Solomon"
 $ gender = [./gender/He.cmacc] => {
 }
 
+$ pron = [../Form/_sing.cmacc]
+
 $ adr = [../Geo/USA/MA/Middlesex/Cambridge/MadisonSt/100/Geo.cmacc] => {
 }
 
@@ -20,3 +22,6 @@ $ atty = [../ID/samuel_hardy.cmacc] => {
 }
 
 $ sign_RepTitle = "Self"
+
+{{adr}}
+

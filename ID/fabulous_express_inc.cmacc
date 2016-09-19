@@ -11,3 +11,6 @@ $ sign_RepTitle = "sign_RepTitle"
 
 $ sign_Rep = [../ID/_person.cmacc]
 
+$ pron = [../Form/_plur.cmacc]
+
+

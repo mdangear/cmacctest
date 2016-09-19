@@ -8,3 +8,6 @@ $ city = [../geo/USA/MA/Suffolk/Boston.cmacc] => {
 $ gender = [./gender/he.cmacc] => {
 }
 
+$ pron = [../Form/_sing.cmacc]
+
+

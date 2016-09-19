@@ -15,3 +15,6 @@ $ adr = [../Geo/USA/MA/Middlesex/Cambridge/BroadwaySt/1/Geo.cmacc] => {
 }
 
 $ Sign_RepTitle = "Self"
+
+$ pron = [../Form/_sing.cmacc]
+

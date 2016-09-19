@@ -1,0 +1,49 @@
+$ order = [./Step_3_Signature.cmacc] => {
+}
+
+$ Seller_NA = "Seller_NA"
+
+$ Purchaser_NA = "Purchaser_NA"
+
+$ Escrow_NA = "Escrow_NA"
+
+$ Seller_Dear = "Seller_Dear"
+
+$ Delivery_YMD = "Delivery_YMD"
+
+$ Product_Description = "Product_Description"
+
+$ Purchaser_MeUs = "Purchaser_MeUs"
+
+$ Purchaser_MyOur = "Purchaser_MyOur"
+
+$ Purchaser_IWe = "Purchaser_IWe"
+
+$ Escrow_Effective_YMD = "Escrow_Effective_YMD"
+
+$ Claim_YMD = "2014-08-16"
+
+$ Purchaser_Claim_Description = "Three cases were of the wrong type and one case had three broken jars that leaked on the packaging."
+
+$ Purchaser_Remedy_Description = "Two new cases of grape preserves."
+
+$ Delivery_YMD = "2014-08-15"
+
+$ Parcel_num = "S-98765"
+
+$ Purchaser_Sign_YMD = "2014-08-16"
+
+$ Purchaser_Claim_Signature = "x Roberta Robinson"
+
+$ claim = [./Claim.cmacc] => {
+}
+
+{{claim}}
+
+
+
+
+
+
+
+

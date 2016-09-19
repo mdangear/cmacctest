@@ -1,6 +1,9 @@
 $ gender = [./gender/She.cmacc] => {
 }
 
+$ pron = [../Form/_sing.cmacc] => {
+}
+
 $ name_First = "Roberta"
 
 $ name_Last = "Robinson"

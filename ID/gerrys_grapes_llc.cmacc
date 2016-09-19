@@ -14,3 +14,6 @@ $ sign_RepTitle = "Founder"
 $ sign_Rep = [../ID/geraldine_graber.cmacc] => {
 }
 
+$ pron = [../Form/_plur.cmacc]
+
+

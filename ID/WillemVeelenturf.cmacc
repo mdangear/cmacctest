@@ -7,3 +7,6 @@ $ city = "Utrecht"
 $ gender = [../ID/gender/he.cmacc] => {
 }
 
+$ pron = [../Form/_sing.cmacc]
+
+
