@@ -15,12 +15,16 @@ $ claim = [./Claim.cmacc] => {
 	"Product_Description" : signed.ordered.Product_Description
 	"Escrow_Effective_YMD" : signed.ordered.Escrow_Effective_YMD
 	"Purchaser_Claim_Description" : "Three cases were of the wrong type and one case had three broken jars that leaked on the packaging."
+	"Seller_Claim_Response_Delay" : "two business days"
 	"Purchaser_Remedy_Description" : "Two new cases of grape preserves."
 	"sign_Place" : signed.ordered.roberta_robinson.adr.street.city.name
 	"sign_Date" : "2014-08-16"
 }
 
 {{claim}}
+
+
+
 
 
 
