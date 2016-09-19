@@ -25,13 +25,15 @@ $ closing = [../Form/closing.cmacc] => {
 
 {{intro}}
 
-1. {{who}}
+ 1. {{who}}
 
-2. {{what}}
+ 2. {{what}}
 
-3. {{misc.clause1}}
+ 3. {{misc.clause1}}
 
 {{closing}}
+
+
 
 
 

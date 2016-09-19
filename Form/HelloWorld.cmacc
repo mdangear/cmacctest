@@ -1,8 +1,10 @@
 $ person = [../ID/_person.cmacc] => {
 }
 
-$ name_Full = [../ID/_person_f.cmacc] => {
-  "person": person
+$ name_Full = [../ID/_person_full.cmacc] => {
+	"person" : person
 }
 
 {{person.gender.His_Her}} name is {{name_Full}} and {{person.gender.he_she}} lives in {{person.city}}
+
+
