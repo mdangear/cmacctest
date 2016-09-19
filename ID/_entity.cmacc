@@ -1,5 +1,7 @@
 $ name_Full = "name_Full"
 
+$ name_Dear = "name_Dear"
+
 $ sign_Title = "sign_Title"
 
 $ sign_Rep = [../ID/_individual.cmacc] => {
@@ -14,5 +16,6 @@ $ contact_Name_Formal = "contact_Name_Formal"
 $ adr = [../Geo/country/state/county/city/street/streetnum/_geo.cmacc] => {
 }
 
-$ pron = [../Form/_pron.cmacc]
+$ pron = [../Form/_pron.cmacc] => {
+}
 

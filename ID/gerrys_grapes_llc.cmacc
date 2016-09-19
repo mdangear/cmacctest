@@ -1,5 +1,7 @@
 $ name_Full = "Gerry's Grapes, LLC"
 
+$ name_Dear = "Gerry's Grapes"
+
 $ entity_a = "a Massachusetts LLC"
 
 $ adr_Type = "business"
