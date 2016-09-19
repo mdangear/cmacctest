@@ -1,7 +1,67 @@
-Model.Root={Response.Doc.Body}
+$ seller = [../ID/_entity.cmacc] => {
+}
 
-Response.Doc.Body=<p>&#8194;</p><p>Seller's Response to Notice of Claim:</p><p>&#8194;</p><p>To: {Purchaser.N,A} &#8194;"Purchaser"</p><p>From: {Seller.N,A} "Seller"</p>	<p>CC: {Escrow.N,A} "Escrow Agent"</p><p>Date: {Response.YMD}</p><p>Claim Date: {Claim.YMD}</p><p>Re: Claim</p><p> {Purchaser.Dear}:</p><p>Thank you for your Notice of Claim.  {Seller.I/We} greatly regret that you had a problem with our shipment of {Product.Description}  </p><p>Thank you also for your offer to settle this matter by: {Purchaser.Remedy.Description}  <p>{Accept/Reject}</p><p></p><p>{Seller.Sign.Block}</p>
-	        
-Accept={Seller.I/We} are pleased to inform you that {Seller.I/we} have accepted your proposal.
+$ Seller_NA = [../ID/_entity_NA.cmacc] => {
+	"entity" : seller
+}
 
-Reject={Seller.I/We} would like to propose that instead of your offer, {Seller.I/we} will {Seller.Counterproposal}        
+$ purchaser = [../ID/_entity.cmacc] => {
+}
+
+$ Purchaser_NA = [../ID/_entity_NA.cmacc] => {
+	"entity" : purchaser
+}
+
+$ escrow = [../ID/_entity.cmacc] => {
+}
+
+$ Escrow_NA = [../ID/_entity_NA.cmacc] => {
+	"entity" : escrow
+}
+
+$ Claim_YMD = "Claim_YMD"
+
+$ Response_YMD = "Response_YMD"
+
+$ Product_Description = "Product_Description"
+
+$ Purchaser_Remedy_Description = "Purchaser_Remedy_Description"
+
+$ AcceptReject = "AcceptReject"
+
+$ sign_Place = "sign_Party_Place"
+
+$ sign_Date = "sign_Party_Date"
+
+$ signParty = [../Form/_sign.cmacc] => {
+	"role" : "Seller"
+	"person" : seller.sign_Rep
+	"sign_Place" : sign_Place
+	"sign_Date" : sign_Date
+}
+
+
+Seller's Response to Notice of Claim:
+
+To: {{Purchaser_NA}},"Purchaser"
+
+From: {{Seller_NA}}, "Seller"
+
+CC: {{Escrow_NA}}, "Escrow Agent"
+
+Date: {{Response_YMD}}
+
+Claim Date: {{Claim_YMD}}
+
+Re: Claim
+	
+{{purchaser.name_Dear}}:
+
+Thank you for your Notice of Claim.  {{seller.pron.IWe}} greatly regret that you had a problem with our shipment of {{Product_Description}} 
+
+Thank you also for your offer to settle this matter by: {{Purchaser_Remedy_Description}}  
+
+{{AcceptReject}}
+
+{{signParty}}
+      

@@ -2,6 +2,8 @@ $ name_Last = "Shirley"
 
 $ name_First = "Solomon"
 
+$ name_Formal = "M. Solomon"
+
 $ gender = [./gender/He.cmacc] => {
 }
 

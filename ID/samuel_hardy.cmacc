@@ -13,3 +13,5 @@ $ adr_Type = ""business""
 $ sign_RepTitle = "Self"
 
 $ pron = [../Form/_sing.cmacc]
+
+$ name_Formal = "M. Hardy"
