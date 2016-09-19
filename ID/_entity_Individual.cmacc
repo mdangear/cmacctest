@@ -7,7 +7,7 @@ $ name_Full = [../ID/_person_full.cmacc] => {
 	"person" : person
 }
 
-$$ name_Dear = [../ID/_person_formal.cmacc] => {
+$ name_Dear = [../ID/_person_formal.cmacc] => {
 	"person" : person
 }
 

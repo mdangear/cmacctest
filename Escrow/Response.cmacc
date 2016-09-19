@@ -55,7 +55,7 @@ Claim Date: {{Claim_YMD}}
 
 Re: Claim
 	
-{{purchaser.name_Dear}}:
+{{purchaser.name_Dear}}
 
 Thank you for your Notice of Claim.  {{seller.pron.IWe}} greatly regret that you had a problem with our shipment of {{Product_Description}} 
 

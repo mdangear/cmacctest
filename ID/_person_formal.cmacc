@@ -1,4 +1,4 @@
 $ person = [../ID/_person.cmacc] => {
 }
 
-{{person.contact_Name_Formal}}
+{{person.name_Formal}}
