@@ -1,15 +1,15 @@
-$ name_Full = "name_Full"
+$ name_Full = "BNP Paribas"
 
 $ name_Dear = "name_Dear"
 
-$ gov_ID_Number = "gov_ID_Number"
+$ gov_ID_Number = "1234567890"
 
 $ entity_a = "entity_a"
 
 $ adr = [../Geo/country/state/county/city/street/streetnum/_geo.cmacc] => {
 }
 
-$ adr_Type = "adr_Type"
+$ adr_Type = "business"
 
 $ contact_Name_Formal = "contact_Name_Formal"
 
@@ -18,5 +18,5 @@ $ sign_Rep = [../ID/_individual.cmacc] => {
 
 $ sign_Title = "sign_Title"
 
-$ pron = [../Form/_pron.cmacc] => {
+$ pron = [../Form/_plur.cmacc] => {
 }

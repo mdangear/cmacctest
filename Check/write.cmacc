@@ -1,0 +1,24 @@
+$ B1 = [../ID/_entity.cmacc] => {
+}
+
+$ P1 = [../ID/_entity.cmacc] => {
+}
+
+$ P2 = [../ID/_entity.cmacc] => {
+}
+
+$ Check_ID_Number = "Check_ID_Number"
+
+$ amount_Text = "amount_Text"
+
+$ Amount_Number = "Amount_Number"
+
+$ sign_Place = "sign_Place"
+
+$ sign_Date_YMD = "sign_Date_YMD"
+
+$ action = [./write_Yes.cmacc] => {
+}
+
+<table><tr><td><h1>{{B1.name_Full}}</h1></td><td></td><td></td></tr><tr><td>Payez contre ce chèque non endossable {{amount_Text}}<br> à {{P2.name_Full}}<br><table><tr><td valign="top">Payable en France<br>{{B1.Adr_12}}</td><td valign="top">Compte <br>{{P1.Account_ID_Number}}<br>{{P1.N12}}</td><td valign="top">{{sign_Place}}</td></tr></table></td><td></td><td>€ {{Amount_Number}}<br>{{sign_Date_YMD}}<br><br>{{P1.signRep.name_Full}}</td></tr><tr><td>{{Check_ID_Number}} | {{P1.Account_ID_Number}} | {{B1.gov_ID_Number}}</td></tr></table>
+
