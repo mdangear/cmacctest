@@ -1,11 +1,11 @@
-$ entity = [../ID/_individual.cmacc] => {
+$ entity = [../FR/_individual.cmacc] => {
 }
 
-$ entity_name_Full = [../ID/_person_f.cmacc] => {
+$ entity_name_Full = [../Form/_person_full.cmacc] => {
 	"person" : entity
 }
 
-$ adr_12 = [../Geo/_adr_12.cmacc] => {
+$ adr_12 = [../Geo/FR/_adr_12.cmacc] => {
 	"adr" : entity.adr
 }
 

@@ -1,46 +1,46 @@
-$ seller = [../ID/_entity.cmacc] => {
+$ seller = [../US/_entity.cmacc] => {
 }
 
-$ Seller_NA = [../ID/_entity_NA.cmacc] => {
+$ Seller_NA = [../US/_entity_NA.cmacc] => {
 	"entity" : seller
 }
 
-$ purchaser = [../ID/_entity.cmacc] => {
+$ purchaser = [../US/_entity.cmacc] => {
 }
 
-$ Purchaser_NA = [../ID/_entity_NA.cmacc] => {
+$ Purchaser_NA = [../US/_entity_NA.cmacc] => {
 	"entity" : purchaser
 }
 
-$ escrow = [../ID/_entity.cmacc] => {
+$ escrow = [../US/_entity.cmacc] => {
 }
 
-$ Escrow_NA = [../ID/_entity_NA.cmacc] => {
+$ Escrow_NA = [../US/_entity_NA.cmacc] => {
 	"entity" : escrow
 }
 
-$ shipper = [../ID/_entity.cmacc] => {
+$ shipper = [../US/_entity.cmacc] => {
 }
 
-$ Claim_YMD = "Claim_YMD"
+$ Claim_YMD = ""Claim_YMD""
 
-$ Delivery_YMD = "Delivery_YMD"
+$ Delivery_YMD = ""Delivery_YMD""
 
-$ Parcel_num = "Parcel_num"
+$ Parcel_num = ""Parcel_num""
 
-$ Product_Description = "Product_Description"
+$ Product_Description = ""Product_Description""
 
-$ Escrow_Effective_YMD = "Escrow_Effective_YMD"
+$ Escrow_Effective_YMD = ""Escrow_Effective_YMD""
 
-$ Purchaser_Claim_Description = "Purchaser_Claim_Description"
+$ Purchaser_Claim_Description = ""Purchaser_Claim_Description""
 
-$ Seller_Claim_Response_Delay = "Seller_Claim_Response_Delay"
+$ Seller_Claim_Response_Delay = ""Seller_Claim_Response_Delay""
 
-$ Purchaser_Remedy_Description = "Purchaser_Remedy_Description"
+$ Purchaser_Remedy_Description = ""Purchaser_Remedy_Description""
 
-$ sign_Place = "sign_Party_Place"
+$ sign_Place = ""sign_Party_Place""
 
-$ sign_Date = "sign_Party_Date"
+$ sign_Date = ""sign_Party_Date""
 
 $ signParty = [../Form/_sign.cmacc] => {
 	"role" : "Purchaser"
@@ -82,6 +82,8 @@ Your response is required by {{Seller_Claim_Response_Delay}}.
 {{signParty}}
 	
             
+
+
 
 
 

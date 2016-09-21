@@ -1,86 +1,63 @@
-$ seller = [../ID/_entity.cmacc] => {
+$ seller = [../US/_entity.cmacc] => {
 }
 
-$ purchaser = [../ID/_entity.cmacc] => {
+$ purchaser = [../US/_entity.cmacc] => {
 }
 
-$ escrow = [../ID/_entity.cmacc] => {
+$ escrow = [../US/_entity.cmacc] => {
 }
 
-$ arbitrator = [../ID/_entity.cmacc] => {
+$ arbitrator = [../US/_entity.cmacc] => {
 }
 
-$ sign_Party1_Place = "sign_Party1_Place"
-
-$ sign_Party1_Date = "sign_Party1_Date"
-
-$ sign_Party2_Place = "sign_Party2_Place"
-
-$ sign_Party2_Date = "sign_Party2_Date"
-
-$ sign_Party3_Place = "sign_Party3_Place"
-
-$ sign_Party3_Date = "sign_Party3_Date"
-
-$ sign_Party4_Place = "sign_Party4_Place"
-
-$ sign_Party4_Date = "sign_Party4_Date"
-
-$ sign_Block = [../Form/_sign4.cmacc] => {
-	"party1" : seller
-	"party2" : purchaser
-	"party3" : escrow
-	"party4" : arbitrator
+$ shipper = [../US/_entity.cmacc] => {
 }
 
-$ shipper = [../ID/_entity.cmacc] => {
-}
-
-$ Seller_NEA = [../ID/_entity_NEA.cmacc] => {
+$ Seller_NEA = [../US/_entity_NEA.cmacc] => {
 	"entity" : seller
 }
 
-$ Purchaser_NEA = [../ID/_entity_NEA.cmacc] => {
+$ Purchaser_NEA = [../US/_entity_NEA.cmacc] => {
 	"entity" : purchaser
 }
 
-$ Escrow_NEA = [../ID/_entity_NEA.cmacc] => {
+$ Escrow_NEA = [../US/_entity_NEA.cmacc] => {
 	"entity" : escrow
 }
 
-$ Shipper_NEA = [../ID/_entity_NEA.cmacc] => {
+$ Shipper_NEA = [../US/_entity_NEA.cmacc] => {
 	"entity" : shipper
 }
 
-$ Arbitrator_NEA = [../ID/_entity_NEA.cmacc] => {
+$ Arbitrator_NEA = [../US/_entity_NEA.cmacc] => {
 	"entity" : arbitrator
 }
 
-$ Product_Description = "Product_Description"
+$ Product_Description = ""Product_Description""
 
-$ Price_USD = "Price_USD"
+$ Price_USD = ""Price_USD""
 
-$ Pickup_Time_Max = "Pickup_Time_Max"
+$ Pickup_Time_Max = ""Pickup_Time_Max""
 
-$ DeliveryClaim_Delay = "DeliveryClaim_Delay"
+$ DeliveryClaim_Delay = ""DeliveryClaim_Delay""
 
-$ DeliveryPayment_TimeSpan = "DeliveryPayment_TimeSpan"
+$ DeliveryPayment_TimeSpan = ""DeliveryPayment_TimeSpan""
 
-$ Escrow_Fee_USD = "Escrow_Fee_USD"
+$ Escrow_Fee_USD = ""Escrow_Fee_USD""
 
-$ Escrow_Sign_YMD = "Escrow_Sign_YMD"
+$ Escrow_Sign_YMD = ""Escrow_Sign_YMD""
 
-$ Escrow_Effective_YMD = "Escrow_Effective_YMD"
+$ Escrow_Effective_YMD = ""Escrow_Effective_YMD""
 
-$ Arb_Fee_USD = "ARB_Fee_USD"
+$ Arb_Fee_USD = ""ARB_Fee_USD""
 
-$ Dispute_Notice_Within_Days = "Dispute_Notice_Within_Days"
+$ Dispute_Notice_Within_Days = ""Dispute_Notice_Within_Days""
 
-$ Arb_Seat_City = "Arb_Seat_City"
+$ Arb_Seat_City = ""Arb_Seat_City""
 
-$ Arb_Org = "Arb_Org"
+$ Arb_Org = ""Arb_Org""
 
-$ Arb_Court_CountyState = "Arb_Court_CountyState"
+$ Arb_Court_CountyState = ""Arb_Court_CountyState""
 
 ESCROW AGREEMENT
 
@@ -148,7 +125,12 @@ Notices.
 Construction to Conform to Technical Implementation
     The provisions of this Agreement are intended to express in legal language ("Text") the functioning of the software code that performs the transaction. Each party represents that it has access to the source code ("Code") and has made such inspection and analysis as it deems appropriate. In the event of any ambiguity in the text or conflict between the text and operation of the Code, the Code will be the definitive version.
 
-{{sign_Block}}
+
+
+
+
+
+
 
 
 

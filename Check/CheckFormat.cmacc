@@ -1,19 +1,60 @@
-$ Resolve_Div = "<b>Resolution of Any Questions or Disputes</b>:<br>"
+$ B1 = [../ID/_entity.cmacc] => {
+}
 
-$ Resolve_Sec = "<i>Provisions for rejection of the check.</i>"
+$ B1_adr12 = [../Geo/_adr_12.cmacc] => {
+}
 
-{{Write}}
+$ P1 = [../ID/_entity.cmacc] => {
+}
 
-{{Sign}}
+$ P1_adr12 = [../ID/_entity_NA.cmacc] => {
+	"entity" : P1
+}
 
-{{Endorse}}
+$ P2 = [../ID/_entity.cmacc] => {
+}
 
-{{Deposit}}
+$ P1_Acct_ID_Num = [../Acct/Bank/AcctID/Acctnum/_acct.cmacc] => {
+}
 
-{{Present}}
+$ Check_ID_Num = "Check_ID_Number"
 
-{{Accept}}
+$ amount_Text = "amount_Text"
 
-{{Resolve}}
+$ Amount_Num = "Amount_Number"
 
-<b>Parties:</b><br><table><td><b>B1:</b>{B1.N12}</td><td><b>B2:</b>{B2.N12}</td></tr><tr><td><b>P1:</b>{P1.N12}</td><td><b>P2:</b>{P2.N12}</td></tr><tr><td><b>P1 Signer:</b>{P1.sign_Rep_N12}</td><td><b>P2 Signer (Endorser):</b>{P2.sign_Rep_N12}</td></table>
+$ sign_Place = "sign_Place"
+
+$ sign_Date_YMD = "sign_Date_YMD"
+
+<table>
+<tr><td><h1>{{B1.name_Full}}</h1><br>{{B1_adr12}}</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td valign="top">{{P1.name_Full}} <br>{{P1_adr12}}</td>
+<td valign="top">Compte <br>{{P1_Acct_ID_Num.acctnum}}</td>
+</tr>
+<tr>
+<td>Payez contre ce chèque non endossable {{amount_Text}}<br> à {{P2.name_Full}}<br>
+<table>
+<tr>
+<td valign="top">Payable en France</td>
+<td></td>
+</tr>
+</table>
+</td>
+<td valign=top>€ {{Amount_Num}}<br></td>
+</tr>
+<tr>
+<td></td>
+<td valign="top">{{sign_Place}}<br>{{sign_Date_YMD}}<br><br>{{P1.signRep.name_Full}}</td>
+</tr>
+<tr>
+<td>{{Check_ID_Num}} | {{P1_Acct_ID_Num.acctnum}} | {{B1.gov_ID_Num}}</td>
+<td></td>
+</tr>
+</table>
+
+

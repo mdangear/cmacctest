@@ -3,7 +3,7 @@ $ role = "role"
 $ person = [../ID/_person.cmacc] => {
 }
 
-$ name_Full = [../ID/_person_full.cmacc] => {
+$ name_Full = [../Form/_person_full.cmacc] => {
 	"person" : person
 }
 

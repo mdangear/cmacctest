@@ -1,26 +1,20 @@
-Yes/No.cl={Yes.cl}
+$ SCDL_Ti = "On filling the Payment Order  (Check)"
 
-Yes.cl={Author.Name.Full} wrote Check {Check.ID.Number.#}.
+$ SCDL_1_Ti=Validate that the Payment Amount is Available in the Account
 
-=[bqc/fr/system/SCDL/Write/0.md]
+$ SCDL_1_sec=QmX4isQE7GWwyKtQfC2X97fBbbGyBqNdvsscKEEo7oMNNN
 
-SCDL.Ti=On filling the Payment Order  (Check)
+$ SCDL_2_Ti=Validate that P2 Exists and Not Under Restriction
 
-SCDL.1.Ti=Validate that the Payment Amount is Available in the Account
+$ SCDL_2_sec=Qmdb5bCtN8XrvQqiUxUd7siBx62MxH6WxvsnsHzVvg7VrN
 
-SCDL.1.sec=QmX4isQE7GWwyKtQfC2X97fBbbGyBqNdvsscKEEo7oMNNN
+$ SCDL_3_Ti=No Duplicate Check in the Pipeline
 
-SCDL.2.Ti=Validate that P2 Exists and Not Under Restriction
+$ SCDL_3_sec=QmTaMUaC2ijnGnU1Z1sxdmpR3dFJktEQd1cYTaTXni61Fm
 
-SCDL.2.sec=Qmdb5bCtN8XrvQqiUxUd7siBx62MxH6WxvsnsHzVvg7VrN
+$ SCDL_4_Ti=Stage for Signature - Notify Signer 
 
-SCDL.3.Ti=No Duplicate Check in the Pipeline
-
-SCDL.3.sec=QmTaMUaC2ijnGnU1Z1sxdmpR3dFJktEQd1cYTaTXni61Fm
-
-SCDL.4.Ti=Stage for Signature - Notify Signer 
-
-SCDL.4.sec=QmeQDpMQfwEzsJ561ZtAyFekDUPD4Mnj8rKqUrW48iae3A
-
-SCDL.=[Z/ol/4] 
+$ SCDL_4_sec=QmeQDpMQfwEzsJ561ZtAyFekDUPD4Mnj8rKqUrW48iae3A
   
+
+

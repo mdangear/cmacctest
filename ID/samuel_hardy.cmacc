@@ -1,6 +1,6 @@
-$ name_First = ""Samuel""
+$ name_First = "Samuel"
 
-$ name_Last = ""Hardy""
+$ name_Last = "Hardy"
 
 $ gender = [./gender/He.cmacc] => {
 }
@@ -8,10 +8,12 @@ $ gender = [./gender/He.cmacc] => {
 $ adr = [../Geo/USA/CA/San_Francisco/San_Francisco/MissionSt/1101/Geo.cmacc] => {
 }
 
-$ adr_Type = ""business""
+$ adr_Type = "business"
 
 $ sign_RepTitle = "Self"
 
-$ pron = [../Form/_sing.cmacc]
+$ pron = [../Form/_sing.cmacc] => {
+}
 
 $ name_Formal = "M. Hardy"
+

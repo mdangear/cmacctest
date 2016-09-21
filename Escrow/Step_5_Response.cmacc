@@ -2,7 +2,6 @@ $ claim = [./Step_4_Claim.cmacc] => {
 }
 
 $ AcceptReject = [./Response_Accept.cmacc] => {
-	"seller" : claim.signed.signature.order.seller
 }
 
 $ response = [./Response.cmacc] => {
@@ -19,6 +18,10 @@ $ response = [./Response.cmacc] => {
 }
 
 {{response}}
+
+
+
+
 
 
 

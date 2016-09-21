@@ -1,21 +1,21 @@
-$ seller = [../ID/_entity.cmacc] => {
+$ seller = [../US/_entity.cmacc] => {
 }
 
-$ Seller_NA = [../ID/_entity_NA.cmacc] => {
+$ Seller_NA = [../US/_entity_NA.cmacc] => {
 	"entity" : seller
 }
 
-$ purchaser = [../ID/_entity.cmacc] => {
+$ purchaser = [../US/_entity.cmacc] => {
 }
 
-$ Purchaser_NA = [../ID/_entity_NA.cmacc] => {
+$ Purchaser_NA = [../US/_entity_NA.cmacc] => {
 	"entity" : purchaser
 }
 
-$ escrow = [../ID/_entity.cmacc] => {
+$ escrow = [../US/_entity.cmacc] => {
 }
 
-$ Escrow_NA = [../ID/_entity_NA.cmacc] => {
+$ Escrow_NA = [../US/_entity_NA.cmacc] => {
 	"entity" : escrow
 }
 
@@ -39,7 +39,6 @@ $ signParty = [../Form/_sign.cmacc] => {
 	"sign_Place" : sign_Place
 	"sign_Date" : sign_Date
 }
-
 
 Seller's Response to Notice of Claim:
 
@@ -65,3 +64,4 @@ Thank you also for your offer to settle this matter by: {{Purchaser_Remedy_Descr
 
 {{signParty}}
       
+

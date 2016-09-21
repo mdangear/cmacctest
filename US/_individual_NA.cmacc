@@ -1,7 +1,7 @@
-$ entity = [../ID/_individual.cmacc] => {
+$ entity = [../US/_individual.cmacc] => {
 }
 
-$ entity_name_Full = [../ID/_person_f.cmacc] => {
+$ entity_name_Full = [../Form/_person_full.cmacc] => {
 	"person" : entity
 }
 

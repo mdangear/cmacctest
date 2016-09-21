@@ -1,0 +1,32 @@
+$ person = [../FR/_individual.cmacc] => {
+}
+
+$ name_Full = [../Form/_person_full.cmacc] => {
+	"person" : person
+}
+
+$ name_Dear = [../FR/_person_formal.cmacc] => {
+	"person" : person
+}
+
+$ gov_ID_Number = "gov_ID_Number"
+
+$ entity_a = "une personne"
+
+$ adr = [../Geo/country/state/county/city/street/streetnum/_geo.cmacc] => {
+}
+
+$ adr_Type = "adr_Type"
+
+$ contact_Name_Formal = [../FR/_person_formal.cmacc] => {
+	"person" : person
+}
+
+$ sign_Rep = [../FR/_individual.cmacc] => {
+}
+
+$ sign_Title = ""
+
+$ pron = [../Form/_sing.cmacc] => {
+}
+

@@ -1,15 +1,20 @@
-Name.First=Marie
+$ name_First = "Marie"
 
-Name.Last=Matignon
+$ name_Last = "Matignon"
 
-M/Ms=Mme.
+$ name_Formal = "Mme. Matignon"
 
-Adr.1=100 rue du grand chemin
+$ sign_Title = "Self"
 
-Adr.2=75022 Paris
+$ email = "marie@matignon.fr"
 
-Adr.Nation=France
+$ adr = [../Geo/FR/Ile_de_France/Paris/Paris/rue_du_grand_chemin/100/Geo.cmacc] => {
+}
 
-Email=marie@matignon.fr
+$ adr_Type = "personal"
 
-=[U/class/ID_She]
+$ pron = [../Form/_sing.cmacc]
+
+$ gender = [./gender/she.cmacc] => {
+}
+

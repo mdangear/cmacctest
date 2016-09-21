@@ -11,7 +11,7 @@ $ adr_Type = "business"
 
 $ sign_RepTitle = "sign_RepTitle"
 
-$ sign_Rep = [../ID/_person.cmacc]
+$ sign_Rep = [../US/_individual.cmacc]
 
 $ pron = [../Form/_plur.cmacc]
 
