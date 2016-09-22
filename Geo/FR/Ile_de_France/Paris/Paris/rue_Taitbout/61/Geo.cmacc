@@ -1,0 +1,6 @@
+$ streetnum = "61"
+
+$ zip = "75008"
+
+$ street = [../../rue_Taitbout.cmacc] => {
+}

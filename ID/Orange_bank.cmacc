@@ -1,12 +1,12 @@
-$ name_Full = "BNP Paribas"
+$ name_Full = "Orange Bank"
 
 $ name_Dear = "name_Dear"
 
-$ gov_ID_Num = "1234567890"
+$ gov_ID_Num = "12345"
 
 $ entity_a = "entity_a"
 
-$ adr = [../Geo/FR/Ile_de_France/Paris/Paris/blvd_Haussman/5/Geo.cmacc] => {
+$ adr = [../Geo/FR/Ile_de_France/Paris/Paris/rue_Taitbout/61/Geo.cmacc] => {
 }
 
 $ adr_Type = "business"

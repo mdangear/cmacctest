@@ -4,14 +4,14 @@ $ B1 = [../ID/_entity.cmacc] => {
 $ B1_adr12 = [../Geo/_adr_12.cmacc] => {
 }
 
-$ P1 = [../ID/_entity.cmacc] => {
+$ P1 = [../FR/_entity.cmacc] => {
 }
 
-$ P1_adr12 = [../ID/_entity_NA.cmacc] => {
+$ P1_adr12 = [../FR/_entity_NA.cmacc] => {
 	"entity" : P1
 }
 
-$ P2 = [../ID/_entity.cmacc] => {
+$ P2 = [../FR/_entity.cmacc] => {
 }
 
 $ P1_Acct_ID_Num = [../Acct/Bank/AcctID/Acctnum/_acct.cmacc] => {
@@ -56,5 +56,7 @@ $ sign_Date_YMD = "sign_Date_YMD"
 <td></td>
 </tr>
 </table>
+
+
 
 

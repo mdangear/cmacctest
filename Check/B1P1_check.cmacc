@@ -5,12 +5,17 @@ $ B1_adr12 = [../Geo/FR/_adr_12.cmacc] => {
 	"adr" : B1.adr
 }
 
-$ person = [../ID/marie_matignon.cmacc] => {
+$ payfrom = [../ID/marie_matignon.cmacc] => {
 }
 
-$ P1 = [../ID/FR/_entity_individual.cmacc] => {
-	"person" : person
-	"adr" : person.adr
+$ P1 = [../FR/_entity_individual.cmacc] => {
+	"person" : payfrom
+	"adr" : payfrom.adr
+	"sign_Rep" : payfrom
+}
+
+$ P1_adr = [../Geo/FR/_adr_12.cmacc] => {
+	"adr" : P1.adr
 }
 
 $ P2 = [../ID/_entity.cmacc] => {
@@ -19,22 +24,15 @@ $ P2 = [../ID/_entity.cmacc] => {
 $ P1_Acct_ID_Num = [../Acct/BNP/1234/1234567890/Acct.cmacc] => {
 }
 
-$ Check_ID_Num = "Check_ID_Number"
+$ Check_ID_Num = "101"
 
 $ amount_Text = "amount_Text"
 
-$ Amount_Num = "Amount_Number"
+$ Amount_Num = "Amount_Num"
 
 $ sign_Place = "sign_Place"
 
 $ sign_Date_YMD = "sign_Date_YMD"
-
-$ action = [./write_Yes.cmacc] => {
-}
-
-$ P1_NA = [../ID/FR /_entity_NA.cmacc] => {
-	"entity" : P1
-}
 
 <table>
 <tr><td><h1>{{B1.name_Full}}</h1><br>{{B1_adr12}}</td>
@@ -42,7 +40,7 @@ $ P1_NA = [../ID/FR /_entity_NA.cmacc] => {
 <td></td>
 </tr>
 <tr>
-<td valign="top">{{P1_NA}}</td>
+<td valign="top">{{P1.name_Full}}, {{P1_adr}}</td>
 <td valign="top">Compte <br>{{P1_Acct_ID_Num.acctnum}}</td>
 </tr>
 <tr>
@@ -65,6 +63,18 @@ $ P1_NA = [../ID/FR /_entity_NA.cmacc] => {
 <td></td>
 </tr>
 </table>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
