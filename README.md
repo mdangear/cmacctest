@@ -36,3 +36,15 @@ $ key = value
 $ key = [link to file] => {
  "key" : value
 }
+
+3. The value within a linked file can be a value or another file.
+For example see the HelloWorld.cmacc file in this repo:
+
+$ person = [../ID/_person.cmacc] => {
+}
+
+$ name_Full = [../ID/_person_full.cmacc] => {
+	"person" : person
+}
+
+{{person.gender.His_Her}} name is {{name_Full}} and {{person.gender.he_she}} lives in {{person.city}}
