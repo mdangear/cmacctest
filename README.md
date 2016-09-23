@@ -33,11 +33,19 @@ $ key = value
 
 2. To call a file and set key within the file called
 
-$ key = [link to file] => {
+$ file = [link to file] => {
  "key" : value
 }
 
-3. The value within a linked file can be a value or another file.
+Note that if the key/value is a link to a file, keys within this linked file are called using "."
+In the example above, the value for the key would be called by refering to file.key.
+
+3. To display the value of a key, use {{key}}
+Using the example above, this would be:
+{{key}} or {{file.key}}
+
+
+4. The value within a linked file can be a value or another file.
 For example see the HelloWorld.cmacc file in this repo:
 
 $ person = [../ID/_person.cmacc] => {
