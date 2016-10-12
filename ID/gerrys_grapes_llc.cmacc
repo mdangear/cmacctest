@@ -13,8 +13,7 @@ $ adr = [../Geo/USA/MA/Middlesex/Cambridge/BroadwaySt/1/Geo.cmacc] => {
 
 $ sign_RepTitle = "Founder"
 
-$ sign_Rep = [../ID/geraldine_graber.cmacc] => {
-}
+$ sign_Rep = [../ID/geraldine_graber.cmacc]
 
 $ pron = [../Form/_plur.cmacc]
 

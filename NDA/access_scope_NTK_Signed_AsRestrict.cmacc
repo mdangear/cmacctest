@@ -1,0 +1,11 @@
+$ ntk = [./access_NTK.cmacc]
+
+$ signed = [./access_Signed.cmacc]
+
+$ limit = [./access_Limit.cmacc]
+
+$ asRestrictive = [./access_AsRestrictive.cmacc]
+
+
+{{limit}} {{ntk}} and {{signed}} with {{as_Restrictive}}.
+

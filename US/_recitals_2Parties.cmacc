@@ -1,0 +1,24 @@
+$ P1 = [./_entity.cmacc]
+
+$ P2 = [./_entity.cmacc]
+
+$ P1_NEA = [./_entity_NEA.cmacc] => {
+ "entity" : P1
+}
+
+$ P2_NEA = [./_entity_NEA.cmacc] => {
+ "entity" : P2
+}
+
+
+By and Betweeen:
+
+{{P1_NEA}}
+
+and,
+
+{{P2_NEA}}
+
+Each a "party" and collectively the "parties."
+
+

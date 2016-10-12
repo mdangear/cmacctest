@@ -1,25 +1,20 @@
-$ party1 = [../ID/MarcDangeard.cmacc] => {
-}
+$ party1 = [../ID/MarcDangeard.cmacc]
 
-$ party2 = [../ID/JamesHazard.cmacc] => {
-}
+$ party2 = [../ID/JamesHazard.cmacc]
 
-$ intro = [../Form/intro.cmacc] => {
-}
+$ intro = [../Form/intro.cmacc]
 
-$ what = [../Form/what.cmacc] => {
-}
+$ what = [../Form/what.cmacc]
 
-$ misc = [../Form/general_clauses.cmacc] => {
-}
+$ misc = [../Form/general_clauses.cmacc]
 
 $ who = [../Form/who.cmacc] => {
-	"party1" : party1
+	"party1" : party1,
 	"party2" : party2
 }
 
 $ closing = [../Form/closing.cmacc] => {
-	"party1" : party1
+	"party1" : party1,
 	"party2" : party2
 }
 
